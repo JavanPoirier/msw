@@ -191,10 +191,10 @@
     "knip": "knip"
   },
   "lint-staged": {
-    "**/*.ts": [
+    "{cli,src,test}/**/*.ts": [
       "eslint --fix"
     ],
-    "**/*.{ts,json}": [
+    "{cli,src,test,config}/**/*.{ts,json}": [
       "prettier --write"
     ]
   },
